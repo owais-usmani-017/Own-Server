@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background: radial-gradient(circle at top,#1e1e2f,#0c0c12);
+color:#eaeaea;
+min-height:100vh;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:rgba(255,255,255,0.03);
+backdrop-filter:blur(8px);
+}
+
+nav h2{
+letter-spacing:2px;
+color:#00e1ff;
+}
+
+nav ul{
+display:flex;
+gap:30px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:#ddd;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#00e1ff;
+}
+
+.hero{
+height:80vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+background:linear-gradient(90deg,#00e1ff,#7efff5);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+opacity:0.8;
+max-width:600px;
+}
+
+.card-container{
+display:flex;
+gap:25px;
+justify-content:center;
+padding:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#12121a;
+padding:25px;
+width:250px;
+border-radius:12px;
+transition:0.3s;
+box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+}
+
+footer{
+text-align:center;
+padding:20px;
+opacity:0.6;
+margin-top:40px;
+}
